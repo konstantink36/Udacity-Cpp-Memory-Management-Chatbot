@@ -27,8 +27,7 @@ public:
     ChatBot(std::string filename); // constructor WITH memory allocation
     ~ChatBot();
 
-    //// STUDENT CODE
-    ////
+
     // Copy Constructor and copy assigment operator
     ChatBot(const ChatBot &other);		
     ChatBot &operator=(const ChatBot &other);  
@@ -37,8 +36,6 @@ public:
     ChatBot(ChatBot &&other);		
     ChatBot &operator=(ChatBot &&other);
 
-    ////
-    //// EOF STUDENT CODE
 
     // getters / setters
     void SetCurrentNode(GraphNode *node);
